@@ -142,7 +142,7 @@ Experiments are tracked in MLflow (`Credit Card Fraud Detection`); the final mod
 ## 7. Run & Deploy
 
 ```bash
-git clone https://github.com/KashishPundir/CreditCard-Fraud-Detection.git
+git clone https://github.com/Rizwansaifi571/2301420037_Lab-Assignment-1.git
 cd CreditCard-Fraud-Detection
 pip install -r requirements.txt
 
@@ -160,7 +160,7 @@ docker run -d --network fraud-network -p 8000:8000 fraud-detection-api
 docker run -d --network fraud-network -p 8501:8501 fraud-detection-ui
 ```
 
-**CI/CD:** on push or pull request to `main`, GitHub Actions checks the app imports, builds both images, and pushes them to Docker Hub (`kashish1303/fraud-detection-api`, `kashish1303/fraud-detection-ui`; secrets `DOCKERHUB_USERNAME`, `DOCKERHUB_TOKEN`). **Render redeploys are manual**; there is no automated deploy hook.
+**CI/CD:** on push or pull request to `main`, GitHub Actions checks the app imports, builds both images, and pushes them to Docker Hub . **Render redeploys are manual**; there is no automated deploy hook.
 
 ---
 
@@ -177,7 +177,7 @@ docker run -d --network fraud-network -p 8501:8501 fraud-detection-ui
 
 ## 9. Author
 
-**Kashish Pundir** · [GitHub](https://github.com/KashishPundir/CreditCard-Fraud-Detection)
+**Mohd Rizwan** · [GitHub](https://github.com/Rizwansaifi571/2301420037_Lab-Assignment-1)
 
 *Fraud detection is about trade-offs, not accuracy — this project is built around making that trade-off explicit.*
 *If you found this useful, a ⭐ on the repo is appreciated.*
